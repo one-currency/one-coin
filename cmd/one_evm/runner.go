@@ -27,7 +27,7 @@ import (
 
 	goruntime "runtime"
 
-	"github.com/one-currency/one-coin/cmd/evm/internal/compiler"
+	"github.com/one-currency/one-coin/cmd/one_evm/internal/compiler"
 	"github.com/one-currency/one-coin/cmd/utils"
 	"github.com/one-currency/one-coin/common"
 	"github.com/one-currency/one-coin/core"

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/one-currency/one-coin/cmd/evm/internal/compiler"
+	"github.com/one-currency/one-coin/cmd/one_evm/internal/compiler"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

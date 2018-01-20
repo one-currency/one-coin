@@ -65,54 +65,54 @@ var (
 	// Files that end up in the geth*.zip archive.
 	gethArchiveFiles = []string{
 		"COPYING",
-		executablePath("geth"),
+		executablePath("onecoin"),
 	}
 
 	// Files that end up in the geth-alltools*.zip archive.
 	allToolsArchiveFiles = []string{
 		"COPYING",
-		executablePath("abigen"),
-		executablePath("bootnode"),
-		executablePath("evm"),
-		executablePath("geth"),
-		executablePath("puppeth"),
-		executablePath("rlpdump"),
-		executablePath("swarm"),
-		executablePath("wnode"),
+		executablePath("one_abigen"),
+		executablePath("one_bootnode"),
+		executablePath("one_evm"),
+		executablePath("onecoin"),
+		executablePath("one_puppeth"),
+		executablePath("one_rlpdump"),
+		executablePath("one_swarm"),
+		executablePath("one_wnode"),
 	}
 
 	// A debian package is created for all executables listed here.
 	debExecutables = []debExecutable{
 		{
-			Name:        "abigen",
+			Name:        "one_abigen",
 			Description: "Source code generator to convert Ethereum contract definitions into easy to use, compile-time type-safe Go packages.",
 		},
 		{
-			Name:        "bootnode",
+			Name:        "one_bootnode",
 			Description: "Ethereum bootnode.",
 		},
 		{
-			Name:        "evm",
+			Name:        "one_evm",
 			Description: "Developer utility version of the EVM (Ethereum Virtual Machine) that is capable of running bytecode snippets within a configurable environment and execution mode.",
 		},
 		{
-			Name:        "geth",
+			Name:        "onecoin",
 			Description: "Ethereum CLI client.",
 		},
 		{
-			Name:        "puppeth",
+			Name:        "one_puppeth",
 			Description: "Ethereum private network manager.",
 		},
 		{
-			Name:        "rlpdump",
+			Name:        "one_rlpdump",
 			Description: "Developer utility tool that prints RLP structures.",
 		},
 		{
-			Name:        "swarm",
+			Name:        "sone_warm",
 			Description: "Ethereum Swarm daemon and tools",
 		},
 		{
-			Name:        "wnode",
+			Name:        "one_wnode",
 			Description: "Ethereum Whisper diagnostic tool",
 		},
 	}
