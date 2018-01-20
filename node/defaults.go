@@ -22,8 +22,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/nat"
+	"github.com/one-currency/one-coin/p2p"
+	"github.com/one-currency/one-coin/p2p/nat"
 )
 
 const (

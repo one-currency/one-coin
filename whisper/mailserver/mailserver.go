@@ -21,12 +21,12 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
-	whisper "github.com/ethereum/go-ethereum/whisper/whisperv5"
+	"github.com/one-currency/one-coin/cmd/utils"
+	"github.com/one-currency/one-coin/common"
+	"github.com/one-currency/one-coin/crypto"
+	"github.com/one-currency/one-coin/log"
+	"github.com/one-currency/one-coin/rlp"
+	whisper "github.com/one-currency/one-coin/whisper/whisperv5"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/util"
 )

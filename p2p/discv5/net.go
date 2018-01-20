@@ -24,14 +24,14 @@ import (
 	"net"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/one-currency/one-coin/common"
+	"github.com/one-currency/one-coin/common/mclock"
+	"github.com/one-currency/one-coin/crypto"
+	"github.com/one-currency/one-coin/crypto/sha3"
+	"github.com/one-currency/one-coin/log"
+	"github.com/one-currency/one-coin/p2p/nat"
+	"github.com/one-currency/one-coin/p2p/netutil"
+	"github.com/one-currency/one-coin/rlp"
 )
 
 var (

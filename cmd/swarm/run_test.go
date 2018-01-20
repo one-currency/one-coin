@@ -27,12 +27,12 @@ import (
 	"time"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/internal/cmdtest"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/swarm"
+	"github.com/one-currency/one-coin/accounts/keystore"
+	"github.com/one-currency/one-coin/internal/cmdtest"
+	"github.com/one-currency/one-coin/node"
+	"github.com/one-currency/one-coin/p2p"
+	"github.com/one-currency/one-coin/rpc"
+	"github.com/one-currency/one-coin/swarm"
 )
 
 func init() {

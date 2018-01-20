@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/one-currency/one-coin/common"
+	"github.com/one-currency/one-coin/core/vm"
+	"github.com/one-currency/one-coin/params"
 )
 
 type account struct{}

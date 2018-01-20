@@ -24,12 +24,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/contracts/ens"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/swarm/network"
-	"github.com/ethereum/go-ethereum/swarm/services/swap"
-	"github.com/ethereum/go-ethereum/swarm/storage"
+	"github.com/one-currency/one-coin/common"
+	"github.com/one-currency/one-coin/contracts/ens"
+	"github.com/one-currency/one-coin/crypto"
+	"github.com/one-currency/one-coin/swarm/network"
+	"github.com/one-currency/one-coin/swarm/services/swap"
+	"github.com/one-currency/one-coin/swarm/storage"
 )
 
 const (

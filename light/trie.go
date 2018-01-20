@@ -20,11 +20,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/one-currency/one-coin/common"
+	"github.com/one-currency/one-coin/core/state"
+	"github.com/one-currency/one-coin/core/types"
+	"github.com/one-currency/one-coin/crypto"
+	"github.com/one-currency/one-coin/trie"
 )
 
 func NewState(ctx context.Context, head *types.Header, odr OdrBackend) *state.StateDB {

@@ -20,13 +20,13 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/one-currency/one-coin"
+	"github.com/one-currency/one-coin/common"
+	"github.com/one-currency/one-coin/common/hexutil"
+	"github.com/one-currency/one-coin/core/types"
+	"github.com/one-currency/one-coin/internal/ethapi"
+	"github.com/one-currency/one-coin/rlp"
+	"github.com/one-currency/one-coin/rpc"
 )
 
 // ContractBackend implements bind.ContractBackend with direct calls to Ethereum

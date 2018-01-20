@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/one-currency/one-coin/common"
+	"github.com/one-currency/one-coin/common/math"
+	"github.com/one-currency/one-coin/consensus/ethash"
+	"github.com/one-currency/one-coin/core/types"
+	"github.com/one-currency/one-coin/params"
 )
 
 //go:generate gencodec -type DifficultyTest -field-override difficultyTestMarshaling -out gen_difficultytest.go

@@ -19,14 +19,14 @@ package core
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/one-currency/one-coin/common"
+	"github.com/one-currency/one-coin/consensus"
+	"github.com/one-currency/one-coin/consensus/misc"
+	"github.com/one-currency/one-coin/core/state"
+	"github.com/one-currency/one-coin/core/types"
+	"github.com/one-currency/one-coin/core/vm"
+	"github.com/one-currency/one-coin/crypto"
+	"github.com/one-currency/one-coin/params"
 )
 
 // StateProcessor is a basic Processor, which takes care of transitioning

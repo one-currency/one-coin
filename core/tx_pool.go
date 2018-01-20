@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/one-currency/one-coin/common"
+	"github.com/one-currency/one-coin/core/state"
+	"github.com/one-currency/one-coin/core/types"
+	"github.com/one-currency/one-coin/event"
+	"github.com/one-currency/one-coin/log"
+	"github.com/one-currency/one-coin/metrics"
+	"github.com/one-currency/one-coin/params"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

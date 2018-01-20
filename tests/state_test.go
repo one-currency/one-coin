@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/one-currency/one-coin/core/vm"
 )
 
 func TestState(t *testing.T) {

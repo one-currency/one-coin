@@ -33,11 +33,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/event"
+	"github.com/one-currency/one-coin/accounts"
+	"github.com/one-currency/one-coin/common"
+	"github.com/one-currency/one-coin/core/types"
+	"github.com/one-currency/one-coin/crypto"
+	"github.com/one-currency/one-coin/event"
 )
 
 var (

@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/one-currency/one-coin/event"
+	"github.com/one-currency/one-coin/node"
+	"github.com/one-currency/one-coin/p2p"
+	"github.com/one-currency/one-coin/p2p/discover"
+	"github.com/one-currency/one-coin/p2p/simulations/adapters"
+	"github.com/one-currency/one-coin/rpc"
 )
 
 // testService implements the node.Service interface and provides protocols

@@ -17,10 +17,10 @@
 package clique
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/one-currency/one-coin/common"
+	"github.com/one-currency/one-coin/consensus"
+	"github.com/one-currency/one-coin/core/types"
+	"github.com/one-currency/one-coin/rpc"
 )
 
 // API is a user facing RPC API to allow controlling the signer and voting

@@ -23,12 +23,12 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/gasprice"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/one-currency/one-coin/common"
+	"github.com/one-currency/one-coin/common/hexutil"
+	"github.com/one-currency/one-coin/core"
+	"github.com/one-currency/one-coin/eth/downloader"
+	"github.com/one-currency/one-coin/eth/gasprice"
+	"github.com/one-currency/one-coin/params"
 )
 
 // DefaultConfig contains default settings for use on the Ethereum main net.

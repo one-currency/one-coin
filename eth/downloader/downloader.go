@@ -27,13 +27,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	ethereum "github.com/one-currency/one-coin"
+	"github.com/one-currency/one-coin/common"
+	"github.com/one-currency/one-coin/core/types"
+	"github.com/one-currency/one-coin/ethdb"
+	"github.com/one-currency/one-coin/event"
+	"github.com/one-currency/one-coin/log"
+	"github.com/one-currency/one-coin/params"
 	"github.com/rcrowley/go-metrics"
 )
 

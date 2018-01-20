@@ -25,9 +25,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/one-currency/one-coin/common"
+	"github.com/one-currency/one-coin/common/hexutil"
+	"github.com/one-currency/one-coin/core/types"
 )
 
 // Tests that verification caches can be correctly generated.

@@ -20,9 +20,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/light"
+	"github.com/one-currency/one-coin/core"
+	"github.com/one-currency/one-coin/eth/downloader"
+	"github.com/one-currency/one-coin/light"
 )
 
 const (

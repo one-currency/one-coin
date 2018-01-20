@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/one-currency/one-coin/common"
+	"github.com/one-currency/one-coin/core"
+	"github.com/one-currency/one-coin/core/bloombits"
+	"github.com/one-currency/one-coin/core/types"
+	"github.com/one-currency/one-coin/ethdb"
+	"github.com/one-currency/one-coin/event"
+	"github.com/one-currency/one-coin/params"
+	"github.com/one-currency/one-coin/rpc"
 )
 
 type testBackend struct {

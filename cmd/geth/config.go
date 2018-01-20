@@ -28,13 +28,13 @@ import (
 
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/contracts/release"
-	"github.com/ethereum/go-ethereum/dashboard"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/params"
-	whisper "github.com/ethereum/go-ethereum/whisper/whisperv5"
+	"github.com/one-currency/one-coin/cmd/utils"
+	"github.com/one-currency/one-coin/contracts/release"
+	"github.com/one-currency/one-coin/dashboard"
+	"github.com/one-currency/one-coin/eth"
+	"github.com/one-currency/one-coin/node"
+	"github.com/one-currency/one-coin/params"
+	whisper "github.com/one-currency/one-coin/whisper/whisperv5"
 	"github.com/naoina/toml"
 )
 

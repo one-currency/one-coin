@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/one-currency/one-coin/common"
+	"github.com/one-currency/one-coin/consensus/ethash"
+	"github.com/one-currency/one-coin/core"
+	"github.com/one-currency/one-coin/core/types"
+	"github.com/one-currency/one-coin/ethdb"
+	"github.com/one-currency/one-coin/params"
 )
 
 // So we can deterministically seed different blockchains
